@@ -1,0 +1,26 @@
+{
+  "name": "llm-fundamentals",
+  "version": "1.0.0",
+  "description": "[ ] Nghiên cứu tokenization, Transformer, attention và embeddings [ ] Tìm hiểu pretraining, fine-tuning và inference [ ] Thực hiện Tokenizer Lab và Sampling Lab Acceptance: Giải thích được luồng text → tokens → model → output.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "npx tsx --noEmit src/index.ts",
+    "tokenize": "npx tsx src/experiments/tokenizer.ts",
+    "embedding": "npx tsx src/experiments/embedding.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "js-tiktoken": "^1.0.21"
+  }
+}
